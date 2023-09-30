@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>¿Steven es puto?</h1>
+      <button " onmouseover="teletransportacionBoton(this)" >
+        No
+      </button>
+      <button " onclick="mostrarModal('Jajaja es puto')">
+        Si
+      </button>
+      <h2> NavaCorp </h2>
+    </div>
+
+    <!--Un modal es una pestana emergente (mi teclado esta en english XD)-->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <p id="modalMessage"></p>
+      </div>
+    </div>
+
+    <!-- Aqui va el script-->
+    <script src="script.js"></script>
+  </body>
+</html>
