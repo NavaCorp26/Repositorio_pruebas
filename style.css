@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: snow;
+    background-color: rgb(240, 232, 232);
     flex-direction: column;
     justify-content: center;
     align-items: center;
