@@ -20,24 +20,3 @@ window.onclick = function(event){
         cerrarModal();
     }
 }
-
-// Ubicacion aleatoria
-function obtenerUbicacionAleatoria(){
-    var anchoVentana = window.innerHeight;
-    var altoVentana = window.innerHeight;
-    var anchoBoton = 100;
-    var altoBoton = 30;
-
-    var x = Math.random() * (anchoVentana - anchoBoton);
-    var y = Math.random() * (altoVentana - altoBoton);
-
-    return { x: x, y: y};
-}
-
-// Boton de teletransportacion
-function teletransportacionBoton(boton){
-    var ubicacionAleatoria = obtenerUbicacionAleatoria();
-    boton.style.position = "absolute";
-    boton.style.left = ubicacionAleatoria.x + "px";
-    boton.style.top = ubicacionAleatoria.y + "px";
-}
