@@ -7,13 +7,11 @@ function mostrarModal(mensaje){
     modalMenssage.textContent = mensaje;
 }
 
-// Funcion para cerrar el modal
 function cerrarModal(){
     var modal = document.getElementById("myModal");
     modal.style.display = "none";
 }
 
-// Cerrar al presionar fuera
 window.onclick = function(event){
     var modal = document.getElementById("myModal");
     if (event.target === modal){
