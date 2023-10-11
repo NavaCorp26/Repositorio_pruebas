@@ -12,15 +12,13 @@ body {
 
 .container {
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
 }
 
 h1 {
     font-size: 36px;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 30px;
+    margin-bottom: 200px;
 }
 
 h2 {
